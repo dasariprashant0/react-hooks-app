@@ -9,6 +9,9 @@ import Reducer from "./component/UseReducer/useReducer";
 import Ref from "./component/Ref";
 import State from "./component/UseState/useState";
 import Home from "./component/Home";
+import Id from "./component/UseId/useId";
+import DeferredValue from "./component/UseDeferredValue/useDeferredValue";
+import Transition from "./component/UseTransition/useTransition";
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path="/useMemo" element={<Memo />} />
           <Route path="/useCallback" element={<Callback />} />
           <Route path="/useLayoutEffect" element={<LayoutEffect />} />
+          <Route path="/useId" element={<Id />} />
+          <Route path="/useDeferredValue" element={<DeferredValue />} />
+          <Route path="/useTransition" element={<Transition />} />
         </Routes>
       </div>
     </BrowserRouter>
