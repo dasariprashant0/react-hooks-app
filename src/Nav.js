@@ -16,6 +16,9 @@ export default function Nav() {
         <option value="/useMemo">useMemo</option>
         <option value="/useCallback">useCallback</option>
         <option value="/useLayoutEffect">useLayoutEffect</option>
+        <option value="/useId">useId</option>
+        <option value="/useDeferredValue">useDeferredValue</option>
+        <option value="/useTransition">useTransition</option>
       </select>
     </nav>
   );
